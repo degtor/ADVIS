@@ -18,7 +18,9 @@ public class PhotoComponent extends JComponent implements ChangeListener {
 		updateUI();
 	}
 
+	@Override
 	public void paintComponent(Graphics g) {
+		super.paintComponent(g);
 		g.setColor(Color.gray);
 		g.fillRoundRect(2, 2, this.getWidth() - 4,
 				this.getHeight() - 4, 30, 30);
