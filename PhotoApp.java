@@ -33,7 +33,7 @@ public class PhotoApp {
 		window.getContentPane().add(statusBar, BorderLayout.PAGE_END);
 	
 		//Center
-		JPanel centerArea = new JPanel();
+		JComponent centerArea = new PhotoComponent(null);
 		centerArea.setPreferredSize(new Dimension(400,400));
 		centerArea.setMaximumSize(new Dimension(400,400));
 		window.getContentPane().add(centerArea, BorderLayout.CENTER);
