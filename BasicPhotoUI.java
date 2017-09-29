@@ -33,7 +33,7 @@ public class BasicPhotoUI extends PhotoCompAbstractUI implements MouseListener {
 		super.paint(g, c);
 
 		Graphics2D g2 = (Graphics2D) g.create();
-		g2.drawImage(image, 0, 0, null);
+		//g2.drawImage(image, 0, 0, null);
 
 		PhotoComponent pc = (PhotoComponent) c;
 		PhotoModel model = pc.getModel();
